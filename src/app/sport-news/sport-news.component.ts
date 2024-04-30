@@ -4,8 +4,9 @@ import { NewApiService } from '../services/new-api.service';
 @Component({
   selector: 'app-sport-news',
   templateUrl: './sport-news.component.html',
-  styleUrls: ['./sport-news.component.css']
+  styleUrls: ['./sport-news.component.css'],
 })
+
 export class SportNewsComponent implements OnInit {
 
   displaySportNews: any = [];
@@ -22,5 +23,4 @@ export class SportNewsComponent implements OnInit {
       this.displaySportNews = data.articles;
     });
   }
-
 }

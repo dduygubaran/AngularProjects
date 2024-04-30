@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NewApiService } from '../services/new-api.service';
 
 @Component({
   selector: 'app-science-news',
   templateUrl: './science-news.component.html',
-  styleUrls: ['./science-news.component.css']
+  styleUrls: ['./science-news.component.css'],
 })
-export class ScienceNewsComponent {
+
+export class ScienceNewsComponent implements OnInit {
 
   displayScienceNews: any = [];
 
@@ -22,5 +23,4 @@ export class ScienceNewsComponent {
       this.displayScienceNews = data.articles;
     });
   }
-
 }
