@@ -4,12 +4,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopHeadingComponent } from './top-heading/top-heading.component';
 import { HttpClientModule} from '@angular/common/http';
-import { NewApiService } from './services/new-api.service'
+import { NewApiService } from './services/new-api.service';
+import { TechNewsComponent } from './tech-news/tech-news.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopHeadingComponent
+    TopHeadingComponent,
+    TechNewsComponent
   ],
   imports: [
     BrowserModule,
