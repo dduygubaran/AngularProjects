@@ -6,14 +6,16 @@ import { TopHeadingComponent } from './top-heading/top-heading.component';
 import { HttpClientModule} from '@angular/common/http';
 import { NewApiService } from './services/new-api.service';
 import { TechNewsComponent } from './tech-news/tech-news.component';
-import { ScienceNewsComponent } from './science-news/science-news.component'
+import { ScienceNewsComponent } from './science-news/science-news.component';
+import { SportNewsComponent } from './sport-news/sport-news.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     TopHeadingComponent,
     TechNewsComponent,
-    ScienceNewsComponent
+    ScienceNewsComponent,
+    SportNewsComponent
   ],
   imports: [
     BrowserModule,
