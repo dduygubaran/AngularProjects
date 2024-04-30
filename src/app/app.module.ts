@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { TopHeadingComponent } from './top-heading/top-heading.component';
 import { HttpClientModule} from '@angular/common/http';
 import { NewApiService } from './services/new-api.service';
-import { TechNewsComponent } from './tech-news/tech-news.component'
+import { TechNewsComponent } from './tech-news/tech-news.component';
+import { ScienceNewsComponent } from './science-news/science-news.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     TopHeadingComponent,
-    TechNewsComponent
+    TechNewsComponent,
+    ScienceNewsComponent
   ],
   imports: [
     BrowserModule,
