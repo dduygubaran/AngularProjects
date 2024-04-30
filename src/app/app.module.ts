@@ -7,7 +7,8 @@ import { HttpClientModule} from '@angular/common/http';
 import { NewApiService } from './services/new-api.service';
 import { TechNewsComponent } from './tech-news/tech-news.component';
 import { ScienceNewsComponent } from './science-news/science-news.component';
-import { SportNewsComponent } from './sport-news/sport-news.component'
+import { SportNewsComponent } from './sport-news/sport-news.component';
+import { HealthNewsComponent } from './health-news/health-news.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SportNewsComponent } from './sport-news/sport-news.component'
     TopHeadingComponent,
     TechNewsComponent,
     ScienceNewsComponent,
-    SportNewsComponent
+    SportNewsComponent,
+    HealthNewsComponent
   ],
   imports: [
     BrowserModule,
